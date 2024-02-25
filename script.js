@@ -15,7 +15,7 @@ function setComplexity(compl)
 }
 
 document.getElementById("ratingButton").addEventListener("click", function() {
-    window.location.href = "../CourseWork/pages/Rating/index.html";  });
+    window.location.href = "../Game/pages/Rating/index.html";  });
 
 //    document.getElementById("HomeButton").addEventListener("click", function() {
 //        window.location.href = "../../../index.html";  });
@@ -32,12 +32,12 @@ document.getElementById("ratingButton").addEventListener("click", function() {
             // Здесь выполняются действия при нажатии на кнопку, если поле ввода не пустое
             saveName();
           //  alert('Добро пожалуйста, ' + textFromInput + '!');
-            window.location.href = "../CourseWork/pages/Game2/index.html";
+            window.location.href = "../Game/pages/Game2/index.html";
 
             if (complex === 1)
-                window.location.href = "../CourseWork/pages/Game2/index.html";
+                window.location.href = "../Game/pages/Game2/index.html";
             else
-                window.location.href = "../CourseWork/pages/Game2/index.html";  
+                window.location.href = "../Game/pages/Game2/index.html";  
         });
 
 let currentButton = null; // переменная для хранения ссылки на текущую нажатую кнопку
