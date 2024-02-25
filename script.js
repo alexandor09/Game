@@ -2,7 +2,7 @@ let complex = 0;
 function saveName() {
     const textFromInput = document.querySelector('.input_text').value.trim();
     if (textFromInput === '') {
-        alert('Пожалуйста, введите ваше имя.');        
+        alert('Пожалуйста, введите ваше имя');        
         return; // Прерываем выполнение функции, если поле ввода пустое
     }
     localStorage.setItem('currentName', JSON.stringify(textFromInput));
